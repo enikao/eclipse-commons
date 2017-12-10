@@ -15,7 +15,7 @@ import org.eclipse.jdt.annotation.Nullable;
  * 
  * @author Niko Stotz
  * 
- * @since 0.0.1
+ * @since 0.1
  *
  */
 public class UriUtils {
@@ -75,7 +75,7 @@ public class UriUtils {
 	 * @throws IllegalArgumentException
 	 *             If {@code uri} is seriously ill-formatted.
 	 * 
-	 * @since 0.0.1
+	 * @since 0.1
 	 */
 	public static @Nullable IResource toIResource(final @NonNull URI uri) {
 		if (uri.isPlatformResource()) {
@@ -91,5 +91,4 @@ public class UriUtils {
 
 		return null;
 	}
-
 }

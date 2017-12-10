@@ -19,6 +19,7 @@ import org.junit.Before;
  * 
  * @author Niko Stotz
  *
+ * @since 0.1
  */
 public abstract class ATestWorkspace {
 
